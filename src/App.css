@@ -1,23 +1,27 @@
 .App {
   text-align: center;
+  margin-top: 15%;
 }
 
-.App-logo {
-  height: 220px;
+.scale {
+  transition: 1s;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+ }
+ .scale:hover {
+  transform: scale(1.1);
+ }
+p {
+  font-size: 40px;
+  margin-top: 50px;
 }
 
 
-
-.App-header {
+* {
   background-color: #070d1a;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }

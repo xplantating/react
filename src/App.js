@@ -1,24 +1,18 @@
 import logo from './logo.jpg';
-import './App.css';
-function App() {
+import './App.css'; 
+
+
+function Profile() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>xplantating</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         
-        </a>
-      </header>
+    <div className='App'>
+     <img src={logo} className="scale" alt="logo" />
+    <p>xplantating</p>
     </div>
   );
 }
 
-export default App;
+export default function ProfileAndrew() {
+  return (
+      <Profile />
+  );
+}
